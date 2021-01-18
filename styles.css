@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.door-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25rem;
+  width: 15rem;
+  background-color: white;
+  margin: auto;
+  border-left: 8px solid rgb(94, 42, 0);
+  /* box-shadow: 2px 4px 5px white; */
+}
+.door {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform-origin: center left;
+  /* transform: rotateY(-90deg) skewY(5deg); */
+  background: url("https://png.pngtree.com/png-clipart/20190516/original/pngtree-wooden-decking-tile-background-png-image_3546877.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.knob {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: bisque;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+}
+
+.door.open {
+  animation: openDoor 1.5s 1;
+}
+
+@keyframes openDoor {
+  0% {
+    transform: rotateY(0deg) skewY(0deg);
+  }
+  /* 50% {
+    transform: rotateY(-60deg) skewY(20deg);
+  } */
+  90% {
+    transform: rotateY(-90deg) skewY(20deg);
+  }
+  100% {
+    transform: rotateY(-90deg) skewY(20deg);
+  }
+}
