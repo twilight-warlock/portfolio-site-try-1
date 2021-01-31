@@ -9,6 +9,7 @@
         <title>Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -16,27 +17,75 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="intro">
-            <div class='body'>
-                <span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
-                <div class='base'>
-                  <span></span>
-                  <div class='face'></div>
-                </div>
-              </div>
-              <div class='longfazers'>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <h1>Redirecting</h1>
+          <div class='body'>
+            <span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <div class='base'>
+              <span></span>
+              <div class='face'></div>
+            </div>
+          </div>
+          <div class='longfazers'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <h1>Keep smiling</h1>
         </div>
-        
+        <div class="container">
+          <div class="landing row">
+            <div class="col-lg-6">
+              <img src="./undraw_feeling_proud_qne1.svg" alt="Just me missing here" width="400px">
+            </div>
+            <div class="col-lg-6">
+              <h1>Hope you had a safe landing</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, minus quaerat, numquam aperiam saepe totam quod distinctio ex, repudiandae beatae provident. Voluptatum esse mollitia tempora accusantium sequi, architecto laborum hic atque provident accusamus optio assumenda et libero nemo corporis asperiores. Minima doloremque deleniti temporibus provident eligendi eveniet asperiores, veniam libero.</p>
+            </div>
+          </div>
+          <div style="text-align:center">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="./undraw_delivery_address_03n0.svg" width="500px">
+            </div>
+            <div class="column">
+              <form>
+                  <label for="fname">Name</label>
+                  <input type="text" id="fname" name="name" placeholder="Your name.." required autofocus>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="abc@def.com" required> 
+                  <label for="country">Country</label>
+                  
+                  <datalist>
+                      <option value="india">India</option>
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                  </datalist>
+                  <select id="country" name="country">
+                      <option value="india">India</option>
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Tell me your thoughts</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:140px" required></textarea>
+                  <div>
+                      <input type="checkbox" name="agree" id="agree">
+                      <label for="agree">Do you want to be updated with latest news?</label>
+                  </div>
+                  <input type="submit" formnovalidate value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha512-lmArColmgJ0LRo8c6rZwAhB3mVVSFSsrpqOrmtXMgOFYu8VOwdxTliXrHYdsdmututXwD0Xc1GiGvZlHgNAh4g==" crossorigin="anonymous"></script>
         <script src="./script.js" async defer></script>
     </body>
 </html>
