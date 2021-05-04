@@ -64,5 +64,19 @@ $(document).ready(function () {
 
 document.querySelector("#subscribe").addEventListener("submit",(e)=>{
     e.preventDefault()
+    var x = document.getElementById("txtnum").value;
+    var y = document.getElementById("txtemail").value;
+    var mailformat = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+  
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x < 1000000000 || x > 9999999999) {
+    alert("Number not valid");
+  } else if (y.match(mailformat)){  
+    alert("Please enter a valid e-mail address");  
+    }   
+  else {
     alert("mailed");
+  }
+    
 })
