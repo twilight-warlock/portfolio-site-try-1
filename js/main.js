@@ -80,3 +80,11 @@ document.querySelector("#subscribe").addEventListener("submit",(e)=>{
   }
     
 })
+
+$(document).ready(function() {
+ 
+    setTimeout(function(){
+        $('.cover').addClass('hide');
+    }, 3000);
+ 
+});
