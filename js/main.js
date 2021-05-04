@@ -61,3 +61,8 @@ $(document).ready(function () {
     // navbarFixed();
 
 });
+
+document.querySelector("#subscribe").addEventListener("submit",(e)=>{
+    e.preventDefault()
+    alert("mailed");
+})

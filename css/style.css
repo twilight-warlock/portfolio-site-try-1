@@ -175,6 +175,12 @@
 
 /* End Brand Area */
 
+/* Video Area */
+.video-aligner {
+  display: flex;
+  justify-content: center;
+}
+
 /* Services Area */
 
 .site-main .services-area {
