@@ -38,7 +38,7 @@
 
     <!--  ======================= Start Header Area ============================== -->
 
-    <header class="header_area">
+    <header class="header_area hide">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo" width="80px"></a>
@@ -80,14 +80,14 @@
     <!--  ======================= End Header Area ============================== -->
 
     <!--  ======================= Start Main Area ================================ -->
-    <main class="site-main">
+    <main class="site-main hide">
 
 
         <!--  ======================= Start Banner Area =======================  -->
         <section class="site-main">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
+                    <div class="col-lg-6 col-md-12 site-title order-2 order-md-1">
                         <h3 class="title-text">Hey!</h3>
                         <h1 class="title-text text-uppercase">I am Devansh Shah</h1>
                         <h4 class="text-uppercase">Full Stack Developer & Data Science Enthusiast</h4>
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 banner-image">
+                    <div class="col-lg-6 col-md-12 banner-image order-1 order-md-2">
                         <img src="./img/undraw_feeling_proud_qne1.svg" alt="banner-img" class="img-fluid">
                     </div>
                 </div>
@@ -186,7 +186,7 @@
 
         <!--  ======================== Brand Area ==============================  -->
 
-        <section class="brand-area" id="skills">
+        <section class="brand-area d-none d-md-block" id="skills">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-6 col-lg-12 col-md-12">
@@ -275,7 +275,7 @@
                             </div>
                           </div>
                       </div>
-                    <div class="col-xl-6 col-lg-12 col-md-12">
+                    <div class="d-none d-md-block col-xl-6 col-lg-12 col-md-12">
                         <div class="experience-area">
                           <img src="./img/undraw_percentages_0rur.svg" width="550px" alt="Skills">
                         </div>
@@ -287,7 +287,7 @@
 
         <!--  ======================== End Brand Area ==============================  -->
 
-        <section class="mb-5">
+        <section class="mb-5 d-none d-md-block">
             <h1 class="text-uppercase title-text text-center mb-5" >My motivation</h1>
             <div class="video-aligner">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/wnHW6o8WMas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -296,7 +296,7 @@
 
         <!--  ====================== Start Services Area =============================  -->
 
-        <section class="services-area" id="services">
+        <section class="services-area d-none d-md-block" id="services">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
@@ -607,9 +607,10 @@
             <div class="container subscribe">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="text-uppercase">Get Update From anywhere</h4>
-                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-                            consequuntur.</p>
+                        <h4 class="text-uppercase mb-5 mb-md-none">Get Update From anywhere</h4>
+                        <p class="para pt-5">
+                            Fill out your details to connect with me!
+                        </p>
                     </div>
                 </div>
                 <div class="d-sm-flex justify-content-center">
@@ -637,7 +638,7 @@
     </main>
     <!--  ======================= End Main Area ================================ -->
 
-    <footer class="footer-area" id="contact">
+    <footer class="footer-area hide" id="contact">
         <div class="container">
             <div class="">
                 <div class="site-logo text-center py-4">

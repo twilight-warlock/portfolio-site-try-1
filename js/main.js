@@ -85,6 +85,9 @@ $(document).ready(function() {
  
     setTimeout(function(){
         $('.cover').addClass('hide');
+        $('.header_area').removeClass('hide')
+        $('.site-main').removeClass('hide')
+        $('.footer-area').removeClass('hide')
     }, 3000);
  
 });
