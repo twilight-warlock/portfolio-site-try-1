@@ -684,6 +684,7 @@ footer.footer-area .social a:hover > i {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: black;
 }
 
 .water {
